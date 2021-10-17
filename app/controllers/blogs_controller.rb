@@ -41,4 +41,8 @@ class BlogsController < ApplicationController
   def blog_parameter
     params.require(:blog).permit(:title, :content, :start_time)
   end
+
+  def index
+    @redirect_togotgn
+  end
 end
