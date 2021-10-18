@@ -33,6 +33,7 @@ class BlogsController < ApplicationController
       redirect_to blogs_path, notice: "編集しました"
     else
       render 'edit'
+      render 'index'
     end
   end
 
@@ -42,7 +43,5 @@ class BlogsController < ApplicationController
     params.require(:blog).permit(:title, :content, :start_time)
   end
 
-  def index
-    @redirect_togotgn
-  end
+  
 end
