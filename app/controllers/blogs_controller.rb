@@ -33,7 +33,6 @@ class BlogsController < ApplicationController
       redirect_to blogs_path, notice: "編集しました"
     else
       render 'edit'
-      render 'index'
     end
   end
 
