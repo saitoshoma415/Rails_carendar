@@ -59,7 +59,7 @@
 <%= month_calendar events: @blogs do |date, blogs| %>
   <%= date.day %>
 
-  <% blogs.each do |reserve| %>
+  <% blogs.each do |blog| %>
     <div>
       <%= link_to blog.title, blog %>
     </div>
