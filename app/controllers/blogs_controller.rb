@@ -34,6 +34,9 @@ class BlogsController < ApplicationController
     else
       render 'edit'
     end
+
+  else
+    render 'index'
   end
 
   private
