@@ -37,8 +37,7 @@ class BlogsController < ApplicationController
 
   else
     render 'index'
-
-    render 'home'
+    render 'top'
   end
 
   private
