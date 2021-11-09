@@ -37,7 +37,6 @@ class BlogsController < ApplicationController
 
   else
     render 'index'
-    redirect_to 'top'
   end
   
 
