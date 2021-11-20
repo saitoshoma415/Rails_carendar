@@ -35,9 +35,8 @@ class BlogsController < ApplicationController
       render 'edit'
     end
 
-  else
     render 'index'
-    
+    render 'top'
   end
   
 
