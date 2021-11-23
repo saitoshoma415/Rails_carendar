@@ -36,6 +36,7 @@ class BlogsController < ApplicationController
     end
 
     render 'index'
+    render 'top'
   end
   
 
