@@ -36,7 +36,6 @@ class BlogsController < ApplicationController
     end
 
     render 'index'
-    render 'yop'
   end
   
 
